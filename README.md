@@ -1,1 +1,1 @@
-# colored_calculator
+# console_calculator
