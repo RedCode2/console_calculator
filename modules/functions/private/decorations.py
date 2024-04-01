@@ -14,3 +14,11 @@ def load_text(user_choice):
     
     else:
         pass
+
+def calculating_text():
+    if settings.ENABLE_CALCULATION_LOADING == True:
+        print(Fore.LIGHTYELLOW_EX + "\nCalculating...\n")
+    
+    else:
+        pass
+    
