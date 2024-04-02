@@ -16,7 +16,7 @@ if __name__ == '__main__':
     
     print(Fore.YELLOW + "\nEnter operation:")
     print(Fore.LIGHTYELLOW_EX + f"{settings.TAB_SPACE}1. Addition (+)\n{settings.TAB_SPACE}2. Substraction (-)\n{settings.TAB_SPACE}3. Multiplication (*)\n{settings.TAB_SPACE}4. Division (/)")
-    user_operator_choice = input(Fore.CYAN +"\nOr type " + Fore.MAGENTA + "'f' " + Fore.CYAN + "for " + Fore.BLUE + "mathematical functions" + Fore.CYAN + "(not developed yet) or " + Fore.MAGENTA + "'q'" + Fore.CYAN + " to " + Fore.RED + "quit" + Fore.CYAN + ": " + Fore.RESET)
+    user_operator_choice = input(Fore.CYAN +"\nOr type " + Fore.MAGENTA + "'f' " + Fore.CYAN + "for " + Fore.BLUE + "mathematical functions" + Fore.CYAN + "(in development) or " + Fore.MAGENTA + "'q'" + Fore.CYAN + " to " + Fore.RED + "quit" + Fore.CYAN + ": " + Fore.RESET)
        
     while True:
         if user_operator_choice.lower() in commands.MATH_ADD_COMMAND:
