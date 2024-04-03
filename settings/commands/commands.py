@@ -3,7 +3,7 @@ MATH_ADD_COMMAND = [
     '1',
     '+',
     'add',
-    'add()',
+    'add()'
 ]
 
 MATH_SUBSTRACT_COMMAND =  [
@@ -11,7 +11,7 @@ MATH_SUBSTRACT_COMMAND =  [
     '2',
     '-',
     'substract',
-    'substract()',
+    'substract()'
 ]
 
 MATH_MULTIPLY_COMMAND = [
@@ -42,4 +42,22 @@ CONTINUE_OPTION = [
     'continue()'
 ]
 
-MATH_FUNCTIONS_COMMAND: str = 'f'
+MATH_FUNCTIONS_COMMAND = [
+    'f',
+    'function',
+    'function()',
+    'functions'
+    'functions()',
+    'math_functions',
+    'math_functions()',
+    'math_function()',
+    'math_function',
+    'math.function()',
+    'math.functions()',
+    'math.functions'
+]
+
+HELP_COMMAND = [
+    'help()',
+    'help'
+]

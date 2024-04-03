@@ -47,6 +47,21 @@ if __name__ == '__main__':
             priv_math.divide(num1, num2)
             decorations.draw_dashed_line(settings.SEPERATOR_DASH_NUMBER)
         
+        elif user_operator_choice.lower() in commands.MATH_FUNCTIONS_COMMAND:
+            decorations.draw_dashed_line(settings.SEPERATOR_DASH_NUMBER)
+            math_function = input(Fore.LIGHTYELLOW_EX + "\nEnter function if you don't know what function to enter type 'help()': ")
+            
+            if math_function.lower() in commands.HELP_COMMAND:
+                print(Fore.LIGHTRED_EX + "Follow the following steps:")
+                print(Fore.LIGHTGREEN_EX + "\t\b\b\b\b1. Open the location where you saved the project.")
+                print(Fore.LIGHTGREEN_EX + "\t\b\b\b\b2. Go to 'about/help/' folder.")
+                print(Fore.LIGHTGREEN_EX + "\t\b\b\b\b3. There, you will find a 'help_text.txt' file.")
+                print(Fore.LIGHTGREEN_EX + "\t\b\b\b\b4. Click on it and you will see all about how to use console_calculator.")
+                print(Fore.LIGHTGREEN_EX + "\t\b\b\b\b5. The .txt file will contain all the guidelines and instructions to use console_calculator.")
+            
+            else:
+                print(Fore.RED + f"MathFunctionTypeError: No such math function as <{math_function}>")
+            
         elif user_operator_choice.lower() in commands.QUIT_OPTION:
             raise ValueError('Error for exiting the program')
         
