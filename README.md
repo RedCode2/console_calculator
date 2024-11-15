@@ -14,4 +14,6 @@
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;3. Click on 'main.py' and your program is running
 
-## If any issues where found, report in discord
+## This project is nothing at all. It's just public. Just let it be. I haven't updated this for long. 
+
+## I was just learning python when I made this.
